@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aura Studio | Creative Agency</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Using Google Fonts for a modern, minimalist aesthetic -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Header / Navigation -->
+    <header class="navbar">
+        <div class="logo">Aura.</div>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero fade-on-scroll">
+        <div class="container">
+            <h1>Aura Studio</h1>
+            <p class="tagline">Bringing Ideas to Life.</p>
+            <a href="#contact" class="cta-button">Work With Us</a>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="about">
+        <div class="container fade-on-scroll">
+            <h2>About Us</h2>
+            <p>
+                We are a London-based creative agency helping brands express their identity through modern, minimalist design. 
+                By focusing on clean aesthetics, strong visuals, and compelling storytelling, our goal is to make every brand 
+                we touch stand out with purpose, simplicity, and elegance.
+            </p>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container fade-on-scroll">
+            <h2>Our Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <h3>Branding</h3>
+                    <p>Crafting unique brand identities that resonate with your target audience and tell your story.</p>
+                </div>
+                <div class="service-card">
+                    <h3>UI/UX Design</h3>
+                    <p>Designing intuitive, user-centric interfaces that provide seamless digital experiences.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Web Design</h3>
+                    <p>Building responsive, beautifully minimal websites that drive engagement and conversions.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container fade-on-scroll">
+            <h2>Get in Touch</h2>
+            <p class="contact-subtitle">Let's discuss your next project.</p>
+            <form id="contactForm" class="contact-form">
+                <div class="input-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required placeholder="Jane Doe">
+                </div>
+                <div class="input-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required placeholder="jane@example.com">
+                </div>
+                <div class="input-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required placeholder="How can we help you?"></textarea>
+                </div>
+                <button type="submit" class="submit-button">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Aura Studio. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" class="back-to-top" aria-label="Back to top">↑</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
