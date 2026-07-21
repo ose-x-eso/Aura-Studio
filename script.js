@@ -44,12 +44,5 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     // Prevent default form submission to fulfill the "no backend integration" requirement
-    const contactForm = document.getElementById('contactForm');
-    if (contactForm) {
-        contactForm.addEventListener('submit', (e) => {
-            e.preventDefault();
-            alert('Thank you for reaching out! Your message has been received (Demo mode).');
-            contactForm.reset();
-        });
-    }
+
 });
