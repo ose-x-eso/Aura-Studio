@@ -67,7 +67,15 @@
         <div class="container fade-on-scroll">
             <h2>Get in Touch</h2>
             <p class="contact-subtitle">Let's discuss your next project.</p>
-            <form id="contactForm" class="contact-form">
+            <!-- Contact Section Form Update -->
+            <form action="https://formsubmit.co/josephconscience2@gmail.com" method="POST" id="contactForm" class="contact-form">
+                
+                <!-- Optional: Sets the subject line of the email you receive -->
+                <input type="hidden" name="_subject" value="New Inquiry from Aura Studio Landing Page!">
+                
+                <!-- Optional: Disables the default captcha for a smoother user experience -->
+                <input type="hidden" name="_captcha" value="false">
+
                 <div class="input-group">
                     <label for="name">Name</label>
                     <input type="text" id="name" name="name" required placeholder="Jane Doe">
